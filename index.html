@@ -4,8 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Solid Template</title>
+    <title>Tweetease</title>
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="landing.css">
     <link rel="stylesheet" href="dist/css/style.css">
 	<script src="https://unpkg.com/animejs@3.0.1/lib/anime.min.js"></script>
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
@@ -13,13 +14,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 
    <style>
-.btnn{
-    
-    font-size:60px;
-    margin: auto;
-    position:absolute;
-    /* font-color:rgb(107, 107, 184); */
-}
+
 a {
     text-decoration: none;
 }
@@ -28,25 +23,104 @@ a {
     width:8rem;
     margin-left: 2rem;
 }
+.bt {
+    float:left;
+   margin-right:5px;
+   display: inline-block;
+}
    </style>
+   <!-- HTML !-->
+
+
+
+<style>
+.button-85 {
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-85:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+</style>
 </head>
-<div class="btnn">
-    <button type="button" class="btn btn-primary">Home</button>
-</div>
+
     
 
 <body class="is-boxed has-animations">
+    
     <div class="body-wrap">
         <header class="site-header">
+ 
             <div class="container">
+                <button class="button-85" role="button"><a href="https://arjoghosh12.github.io/homepage/
+                    ">Home</a></button>
                 <div class="site-header-inner">
+                   
                     <div class="brand header-brand">
-                        <h1 class="m-0">
-							<a href="#">
-								<img class="header-logo-image" src="dist/images/logo.svg" alt="Logo">
-                            </a>
-                        </h1>
+                        
+                        
                     </div>
+                           
+                    
                 </div>
             </div>
         </header>
@@ -58,9 +132,12 @@ a {
                     <div class="hero-inner">
 						<div class="hero-copy">
 	                        <h1 class="hero-title mt-0">TWEETEASE</h1>
-	                        <p class="hero-paragraph">we think out of the box</p>
+	                        <p class="hero-paragraph">We think out of the box</p>
+                            <button class="button-64" role="button"class="bt"><span class="text"><a href="https://lostfound-h63h.onrender.com/">Enter</a></span></button>
+                           
 	                    </div>
                         
+
 						<div class="hero-figure anime-element">
 							<svg class="placeholder" width="528" height="396" viewBox="0 0 528 396">
 								<rect width="528" height="396" style="fill:transparent;" />
@@ -75,14 +152,72 @@ a {
 							<div class="hero-figure-box hero-figure-box-08" data-rotation="-22deg"></div>
 							<div class="hero-figure-box hero-figure-box-09" data-rotation="-52deg"></div>
 							<div class="hero-figure-box hero-figure-box-10" data-rotation="-50deg"></div>
-						</div>
+						
+                            
+                        </div>
                        
-                    </div>
-                </div>
+                   
+                
             </section>
-            <div class="btnn">
-                <button type="button" class="btn btn-primary"><a  href="https://lostfound-h63h.onrender.com" > Enter </a> </button>
+            <div class="container"  >
+                 <!-- HTML !-->
+
+
+<!-- HTML !-->
+
+<style>
+.button-64 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-64:active,
+.button-64:hover {
+  outline: 0;
+}
+
+.button-64 span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-64:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .button-64 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+</style>
+</div>
             </div>
+        </div>
         </main>
         
     </div>
